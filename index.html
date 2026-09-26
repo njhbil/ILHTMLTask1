@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Tables Task - Infinite Learning</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            color: #333;
+            padding: 20px;
+        }
+        h2 {
+            color: #2c3e50;
+            border-bottom: 2px solid #2c3e50;
+            padding-bottom: 5px;
+            display: inline-block;
+        }
+        table {
+            width: 100%;
+            max-width: 800px;
+            border-collapse: collapse;
+            margin-bottom: 40px;
+            background-color: #fff;
+        }
+        th, td {
+            border: 1px solid #000;
+            padding: 8px 12px;
+            text-align: center;
+        }
+        th {
+            background-color: #f9f9f9;
+            font-weight: bold;
+        }
+        .bg-blue {
+            background-color: #6495ED;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Grade A</h2>
+    <table>
+        <thead>
+            <tr>
+                <th rowspan="3">No</th>
+                <th rowspan="3">Nama</th>
+                <th colspan="6">Hasil Ujian</th>
+                <th rowspan="3">Keterangan</th>
+            </tr>
+            <tr>
+                <th colspan="2">HTML</th>
+                <th colspan="2">CSS</th>
+                <th colspan="2">JavaScript</th>
+            </tr>
+            <tr>
+                <th>Initial</th>
+                <th>Final</th>
+                <th>Initial</th>
+                <th>Final</th>
+                <th>Initial</th>
+                <th>Final</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Rill</td>
+                <td>85</td>
+                <td>92</td>
+                <td>70</td>
+                <td>85</td>
+                <td>83</td>
+                <td>90</td>
+                <td>Lulus</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Zian</td>
+                <td>78</td>
+                <td>85</td>
+                <td>88</td>
+                <td>90</td>
+                <td>75</td>
+                <td>82</td>
+                <td>Lulus</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Aldo</td>
+                <td>82</td>
+                <td>89</td>
+                <td>84</td>
+                <td>87</td>
+                <td>84</td>
+                <td>90</td>
+                <td>Lulus</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>Grade B</h2>
+    <table>
+        <thead>
+            <tr>
+                <th colspan="4" class="bg-blue">Laporan Mahasiswa</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th colspan="2">Nama</th>
+                <th colspan="2">Alamat</th>
+            </tr>
+            <tr>
+                <th>Nama Depan</th>
+                <th>Nama Belakang</th>
+                <th>Jalan</th>
+                <th>Kota</th>
+            </tr>
+            <tr>
+                <td>Raka Gibran</td>
+                <td>Buning</td>
+                <td>Sudirman</td>
+                <td>Bandung</td>
+            </tr>
+            <tr>
+                <th colspan="4">Hasil Studi</th>
+            </tr>
+            <tr>
+                <th colspan="2">Mata Kuliah</th>
+                <th colspan="2">Nilai</th>
+            </tr>
+            <tr>
+                <td colspan="2">Matematika</td>
+                <td colspan="2">A</td>
+            </tr>
+            <tr>
+                <td colspan="2">Fisika</td>
+                <td colspan="2">B</td>
+            </tr>
+            <tr>
+                <th colspan="4">Catatan Tambahan</th>
+            </tr>
+            <tr>
+                <td colspan="4">Mahasiswa memiliki ketertarikan yang tinggi dalam kegiatan ekstrakurikuler.</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>Grade C</h2>
+    <table>
+        <thead>
+            <tr>
+                <th class="bg-blue">Hari</th>
+                <th class="bg-blue">Waktu</th>
+                <th class="bg-blue">Mata Kuliah</th>
+                <th class="bg-blue">Dosen</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Senin</td>
+                <td>08:00 - 10:00</td>
+                <td>Kalkulus</td>
+                <td>Aditya Prapanca, S.T., M.Kom.</td>
+            </tr>
+            <tr>
+                <td>Selasa</td>
+                <td>09:00 - 11:00</td>
+                <td>Algoritma dan Struktur Data</td>
+                <td>Dr. Yuni Yamasari, S.Kom., M.Kom.</td>
+            </tr>
+            <tr>
+                <td>Rabu</td>
+                <td>10:00 - 12:00</td>
+                <td>Pemrograman Web</td>
+                <td>Agus Prihanto, S.T., M.Kom.</td>
+            </tr>
+            <tr>
+                <td>Kamis</td>
+                <td>08:00 - 10:00</td>
+                <td>Jaringan Komputer</td>
+                <td>Anita Qoiriah, S.Kom., M.Kom.</td>
+            </tr>
+            <tr>
+                <td>Jumat</td>
+                <td>13:00 - 15:00</td>
+                <td>Basis Data</td>
+                <td>Dr. Ricky Eka Putra, S.Kom., M.Kom.</td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+</html>
