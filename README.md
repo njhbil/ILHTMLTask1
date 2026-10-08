@@ -1,8 +1,9 @@
-# Tugas JS
+# Tugas IL
 
-Kumpulan tugas javascript.
+## Tugas lama
+- `index.html` -> tugas HTML Tables (Grade A, B, C)
 
-## Isi file
+## Tugas baru (JS)
 - `user-data-cleaner.js` -> case 1, bersihin data user
 - `product-filter.js` -> case 2, filter produk e-commerce
 
